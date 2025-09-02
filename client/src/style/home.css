@@ -1,0 +1,62 @@
+.bodyHome {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg,
+            #2a61eb 0%,
+            #db2778 100%);
+}
+
+.headerHome {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(175, 175, 175);
+}
+
+.mainHome {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentHome {
+    margin-bottom: 2%;
+    width: 50%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background: linear-gradient(135deg,
+            #7c3eea 0%,
+            #b62db2 100%);
+    border-radius: 1.5rem;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#login {
+    width: 80%;
+    height: 30%;
+}
+
+#play {
+    width: 80%;
+    height: 30%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
