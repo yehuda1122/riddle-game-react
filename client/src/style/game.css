@@ -1,0 +1,57 @@
+.mainGame {
+    margin-top: 5%;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(222, 222, 220);
+    border-radius: 1.2rem;
+    /* border: 2px solid white; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    gap: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.level {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 10%;
+    height: 5%;
+}
+
+ #p {
+    font-size: 1rem;
+    margin: 3px;
+}
+
+/* #a {
+    margin-top: 30%; 
+     font-size: 1.5rem;
+}  */
+
+.Description {
+    font-size: 3rem;
+}
+
+.inputGame {
+    width: 30%;
+    height: 10%;
+    border-radius: 1.1rem;
+}
+
+.buttonGame {
+    width: 30%;
+    height: 10%;
+    border-radius: 1.1rem;
+    font-size: 1.2rem;
+    background: linear-gradient(135deg,
+            #afe6dd 0%,
+            #5a6665 90%);
+
+}

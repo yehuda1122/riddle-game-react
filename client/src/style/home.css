@@ -1,20 +1,6 @@
-.bodyHome {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(135deg,
-            #2a61eb 0%,
-            #db2778 100%);
-}
-
-.headerHome {
-    width: 100%;
-    height: 10%;
-    background-color: rgb(175, 175, 175);
-}
-
 .mainHome {
-    width: 60%;
-    height: 70%;
+    width: 60vw;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -22,41 +8,35 @@
     align-items: center;
 }
 
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-self: center;
+    /* color: white; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin-bottom: -50px;
+    display: flex;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+}
 .contentHome {
     margin-bottom: 2%;
-    width: 50%;
-    height: 15%;
+    width: 30%;
+    height: 13%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     font-size: 1.5rem;
     background: linear-gradient(135deg,
-            #7c3eea 0%,
-            #b62db2 100%);
+            #94c4bc 0%,
+            #5a6665 70%);
+
     border-radius: 1.5rem;
-    color: aliceblue;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-
-}
-
-#login {
-    width: 80%;
-    height: 30%;
-}
-
-#play {
-    width: 80%;
-    height: 30%;
-}
-
-h1 {
-    font-size: 3rem;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
